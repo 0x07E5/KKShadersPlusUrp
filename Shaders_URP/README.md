@@ -50,10 +50,7 @@ This folder contains the Universal Render Pipeline (URP) conversion of the KKSha
 | MainAlphaPlus | `xukmi/URP/MainAlphaPlus` | ✅ |
 | MainOpaquePlus | `xukmi/URP/MainOpaquePlus` | ✅ |
 
-### ⚠️ Not Converted (Tessellation Shaders)
-Tessellation shaders require different handling in URP and are not fully converted:
-- `*Tess*.shader` variants - Tessellation requires compute shaders or shader graph in URP
-- These would need Unity 2022.3+ with special tessellation support enabled
+### ⚠️ Totally Broken! (Tessellation Shaders)
 
 ### 📝 Notes on Reflect Shader Variants
 In the Built-in RP, the `*Reflect` shaders used a separate pass for reflections. In URP, reflections are now handled in the main forward pass using:
