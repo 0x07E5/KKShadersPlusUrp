@@ -1,5 +1,9 @@
 # KKShadersPlus URP Conversion
 
+### This project is for my character card render tools to directly import character cards to Unity. will be open source soon. 
+### Most of shaders not working properly at this time! I'm researching how to fix them
+
+
 This folder contains the Universal Render Pipeline (URP) conversion of the KKShadersPlus shaders for Unity 2022.3.
 
 ## Conversion Status
