@@ -295,6 +295,7 @@ Shader "xukmi/URP/MainOpaquePlus"
             #pragma target 3.0
             
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
+            #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Shadows.hlsl"
             
             #include "../KKPDeclarations.hlsl"
